@@ -1,0 +1,70 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    /* min-width: 768px; */
+}
+
+.main-container {
+/* background-color: blueviolet; */
+width: 100%;
+margin: auto;
+
+//* * FLEX */
+/* display: flex;
+flex-flow: row wrap; */ */
+}
+
+.upper-container {
+    /* background-color: darkblue; */
+    /* position: fixed;
+    top: 0px; */
+    display: flex;
+    justify-content: center;
+
+    margin: 10px auto 20px auto;
+    width: 50%;
+
+}
+
+.logo-box {
+    /* background-color: darkgray; */
+    min-width: 155px;
+    width: 50%;
+    
+}
+
+.links a {
+    font-size: 16px;
+    color: #4a4a4a;
+    
+}
+
+.lower-container {
+    background-color: #3CDBC0;
+    position:relative;
+    bottom: 0px;
+    min-height: 800px;
+    text-align: center;
+    align-self: center;
+    
+}
+
+ .claim__box {
+     position: relative;
+     top: 300px;
+     
+
+}
+.claim {
+    
+    font-size: 30px;
+    color: #FFFFFF;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+@media all and (max-width: 768px) {
+
+}
